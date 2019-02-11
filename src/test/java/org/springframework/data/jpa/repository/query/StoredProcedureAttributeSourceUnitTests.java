@@ -103,7 +103,7 @@ public class StoredProcedureAttributeSourceUnitTests {
 		assertThat(attr.getOutputParameterName(), is(StoredProcedureAttributes.SYNTHETIC_OUTPUT_PARAMETER_NAME));
 	}
         
-    @Test // DATAJPA-1297
+	@Test // DATAJPA-1297
 	public void shouldCreateStoredProcedureAttributesFromProcedureMethodWithExplictProcedureNameAliasAndOutputParameterName() {
 
 		StoredProcedureAttributes attr = creator
